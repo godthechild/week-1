@@ -13,20 +13,21 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
-
-2. What if two numbers equal, what will happen? 
-
-Answer: 
+Answer: checking each of 2 number in { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 } with the while loop sample the left number>right
+number the pair of number will be swap!! 
+                 
+2. What if two numbers equal, what will happened?
+Answer: the same number will be side the another such as (4 4 3 2 2 1 1)
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: 27 times
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: for repeat the process until the array will sort completely 
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer:faster!! but it's not complete the purpose (the sort number) 
+commit number :7bfb7d44
