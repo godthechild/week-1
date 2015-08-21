@@ -6,7 +6,8 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer:this process work as factorail function and "if-else" is the condition for checking the number if lower than 1 
+make equal to 1 
 
 
 # Resources
