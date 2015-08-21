@@ -25,7 +25,7 @@ namespace HW1
             int j;
             Console.WriteLine("input: ");
             j = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("output: {0}",process(j));
+            Console.WriteLine(process(j));
             Console.ReadKey();
         }
     }
