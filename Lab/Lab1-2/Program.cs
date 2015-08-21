@@ -38,14 +38,22 @@ namespace Lab1_2
                 Console.Write(input[i]);
                 Console.Write(" ");
             }*/
+
+            
+             
             int [] inp = a.input();
             a.process(inp);
             a.output(inp);
             Console.ReadKey();
         }
+        //function input
         public  int[] input()
         {
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            string num;
+            Console.WriteLine("Input number: ");
+            num = Console.ReadLine();
+            int[] input;
+            input = num.Split(' ').Select(y => Convert.ToInt32(y)).ToArray(); ;
             return input;
  
         }
